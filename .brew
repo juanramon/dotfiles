@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+#aircrack-ng casperjs    gettext     icu4c       libgpg-error    libvorbis   mercurial   ossp-uuid   php54-memcache  redis       vim
+#apple-gcc42 coreutils   git     imagemagick libksba     libvpx      nasm        pcre        php54-mongo rtmpdump    wget
+#autoconf    ctags       glew        jpeg        libogg      libxml2     ngrep       phantomjs   php54-xdebug    sdl     x264
+#automake    faac        glm     jpeg-turbo  libpng      libxslt     nmap        php54       pkg-config  sdl_image   xz
+#bash-completion freetype    gource      lame        libtiff     libyaml     node        php54-apc   postgresql  tesseract   yasm
+#boost       gdbm        htop-osx    leptonica   libtool     maven       optipng     php54-intl  readline    theora      zlib
+
 # Make sure we’re using the latest Homebrew
 brew update
 
@@ -67,13 +74,11 @@ installcask google-chrome-canary
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
-installcask macvim
 installcask miro-video-converter
 installcask sublime-text
 installcask the-unarchiver
 installcask tor-browser
 installcask transmission
-installcask ukelele
 installcask virtualbox
 installcask vlc
 
