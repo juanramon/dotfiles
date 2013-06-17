@@ -34,6 +34,8 @@ brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 brew tap josegonzalez/homebrew-php
 brew install php54
+brew install php54-apc
+brew install php54-intl
 
 # These two formulae didn’t work well last time I tried them:
 #brew install homebrew/dupes/vim
@@ -46,6 +48,7 @@ brew install git
 #brew install imagemagick
 brew install lynx
 brew install node
+brew install casperjs
 brew install pigz
 brew install rename
 brew install rhino
@@ -85,7 +88,11 @@ installcask virtualbox
 installcask vlc
 installcask spotify
 installcask one-password
-installcask flux
+installcask f-lux
+installcask adium
+installcask skype
+installcask mou
+installcask coconutbattery
 
 # Remove outdated versions from the cellar
 brew cleanup
