@@ -37,6 +37,8 @@ brew install php54
 brew install php54-apc
 brew install php54-intl
 
+brew install mysql
+
 # These two formulae didn’t work well last time I tried them:
 #brew install homebrew/dupes/vim
 #brew install homebrew/dupes/screen
