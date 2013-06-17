@@ -84,6 +84,7 @@ installcask transmission
 installcask virtualbox
 installcask vlc
 installcask spotify
+installcask one-password
 
 # Remove outdated versions from the cellar
 brew cleanup
