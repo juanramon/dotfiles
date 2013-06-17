@@ -62,5 +62,18 @@ export NODE_PATH="/usr/local/lib/node"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-# Added by the Heroku Toolbelt
-PATH=$PATH:/usr/local/heroku/bin
+source $HOME/.aliases
+
+# Add `~/bin` to the `$PATH`
+export PATH="$HOME/bin:$PATH"
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# Setting PATH for mysql
+PATH=$PATH:/usr/local/mysql/bin
+
+# Setting PATH for npm
+PATH=$PATH:/usr/local/share/npm/bin
+
+# Setting NODE_PATH
+export NODE_PATH="/usr/local/lib/node"
