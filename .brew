@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
 
-#aircrack-ng casperjs    gettext     icu4c       libgpg-error    libvorbis   mercurial   ossp-uuid   php54-memcache  redis       vim
-#apple-gcc42 coreutils   git     imagemagick libksba     libvpx      nasm        pcre        php54-mongo rtmpdump    wget
-#autoconf    ctags       glew        jpeg        libogg      libxml2     ngrep       phantomjs   php54-xdebug    sdl     x264
-#automake    faac        glm     jpeg-turbo  libpng      libxslt     nmap        php54       pkg-config  sdl_image   xz
-#bash-completion freetype    gource      lame        libtiff     libyaml     node        php54-apc   postgresql  tesseract   yasm
-#boost       gdbm        htop-osx    leptonica   libtool     maven       optipng     php54-intl  readline    theora      zlib
-
 # Make sure we’re using the latest Homebrew
 brew update
 
