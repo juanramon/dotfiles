@@ -69,8 +69,10 @@ function installcask() {
 }
 
 installcask dropbox
+installcask google-drive
 installcask google-chrome
 installcask google-chrome-canary
+installcask firefox
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
@@ -81,6 +83,7 @@ installcask tor-browser
 installcask transmission
 installcask virtualbox
 installcask vlc
+installcask spotify
 
 # Remove outdated versions from the cellar
 brew cleanup
