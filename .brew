@@ -84,11 +84,13 @@ installcask iterm2
 installcask miro-video-converter
 installcask sublime-text
 installcask sequel-pro
+installcask poedit
 installcask the-unarchiver
 installcask tor-browser
 installcask transmission
 installcask virtualbox
 installcask vlc
+installcask handbrake
 installcask spotify
 installcask one-password
 installcask f-lux
