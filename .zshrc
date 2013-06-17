@@ -69,6 +69,8 @@ export PATH="$HOME/bin:$PATH"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+export PATH="$(brew --prefix)/bin:$PATH"
+
 # Setting PATH for mysql
 PATH=$PATH:/usr/local/mysql/bin
 
