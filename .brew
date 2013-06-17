@@ -85,6 +85,7 @@ installcask virtualbox
 installcask vlc
 installcask spotify
 installcask one-password
+installcask flux
 
 # Remove outdated versions from the cellar
 brew cleanup
