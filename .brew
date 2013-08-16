@@ -45,7 +45,9 @@ brew install josegonzalez/php/composer
 brew install ack
 #brew install exiv2
 brew install git
-#brew install imagemagick
+# image treatment
+brew install imagemagick
+brew install ffmpeg
 brew install lynx
 brew install node
 brew install casperjs
