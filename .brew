@@ -34,7 +34,6 @@ brew install php54-apc
 brew install php54-intl
 
 brew install mysql
-
 brew install josegonzalez/php/composer
 
 # These two formulae didn’t work well last time I tried them:
@@ -67,11 +66,7 @@ brew tap phinze/homebrew-cask
 brew install brew-cask
 
 function installcask() {
-	if brew cask info "${@}" | grep "Not installed" > /dev/null; then
-		brew cask install "${@}"
-	else
-		echo "${@} is already installed."
-	fi
+	brew cask install "${@}" 2> /dev/null
 }
 
 installcask dropbox
