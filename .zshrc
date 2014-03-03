@@ -67,6 +67,12 @@ source $HOME/.aliases
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
 
+# Add `~/android/sdk/tools` to the `$PATH`
+export PATH="$HOME/android/sdk/tools:$PATH"
+
+# Add `~/android/sdk/platform-tools` to the `$PATH`
+export PATH="$HOME/android/sdk/platform-tools:$PATH"
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH="$(brew --prefix)/bin:$PATH"
