@@ -40,11 +40,13 @@ ZSH_THEME="bira"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git brew brew-cask capistrano composer node npm )
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+PROMPT="╭─${user_host} ${current_dir} ${git_branch}
+╰─%B$%b "
 local timestamp='%{$fg_bold[magenta]%}%D{[%I:%M:%S]}%{$reset_color%}'
 RPROMPT="${timestamp}"
 
