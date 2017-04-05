@@ -1,12 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
 
-# Add `~/android/sdk/tools` to the `$PATH`
-export PATH="$HOME/android/sdk/tools:$PATH"
-
-# Add `~/android/sdk/platform-tools` to the `$PATH`
-export PATH="$HOME/android/sdk/platform-tools:$PATH"
-
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.

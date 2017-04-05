@@ -17,24 +17,9 @@ brew install bash
 # Install wget with IRI support
 brew install wget --enable-iri
 
-# Install RingoJS and Narwhal
-# Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
-
 # Install more recent versions of some OS X tools
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
-brew tap josegonzalez/homebrew-php
-brew install php54
-brew install php54-memcache
-brew install php54-mongo
-brew install php54-xdebug
-brew install php54-apc
-brew install php54-intl
-
-brew install mysql
-brew install josegonzalez/php/composer
 
 # These two formulae didn’t work well last time I tried them:
 #brew install homebrew/dupes/vim
@@ -45,65 +30,10 @@ brew install ack
 #brew install exiv2
 brew install git
 # image treatment
-brew install imagemagick
-brew install ffmpeg
-brew install lynx
-brew install node
-brew install casperjs
-brew install pigz
 brew install rename
-brew install rhino
-brew install tree
-brew install webkit2png
-brew install zopfli
-brew install ngrep
 
 brew tap homebrew/versions
 brew install lua52
-
-# Install native apps
-brew tap phinze/homebrew-cask
-brew install brew-cask
-
-function installcask() {
-	brew cask install "${@}" 2> /dev/null
-}
-
-installcask dropbox
-installcask google-drive
-installcask google-chrome
-installcask google-chrome-canary
-installcask firefox
-installcask opera
-installcask imagealpha
-installcask imageoptim
-installcask iterm2
-installcask miro-video-converter
-installcask sublime-text
-installcask android-studio
-installcask android-file-transfer
-installcask textwrangler
-installcask sequel-pro
-installcask poedit
-installcask the-unarchiver
-installcask tor-browser
-installcask transmission
-installcask virtualbox
-installcask vlc
-installcask handbrake
-installcask spotify
-installcask one-password
-installcask f-lux
-installcask adium
-installcask skype
-installcask mou
-installcask coconutbattery
-installcask evernote
-installcask arduino
-installcask cloudapp
-installcask alfred
-installcask transmit
-installcask textwrangler
 
 # Remove outdated versions from the cellar
 brew cleanup
